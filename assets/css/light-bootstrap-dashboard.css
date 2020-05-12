@@ -245,10 +245,14 @@ h5 {
 .amount {
     font-size: 30px;
     text-align: center;
+    color: rgba(74, 74, 74, 1);
+    font-weight: bold;
 }
 .amountl {
     font-size: 15px;
     text-align: center;
+    color: rgba(74, 74, 74, 1);
+    font-weight: bold;
 }
 .wrapper {
     position: relative;
@@ -1205,7 +1209,8 @@ fieldset[disabled] .btn-neutral.active {
 .topa {
     font-size: large;
     text-align: right;
-    color: rgba(80, 74, 74, 0.8);
+    margin-right: 10px;
+    color: rgba(74, 74, 74, 0.8);
     font-weight: bold;
 }
 
