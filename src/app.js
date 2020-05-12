@@ -19,7 +19,7 @@ const fetchdata = require('../src/fetch')
 app.use(express.static(pathAssets))
 
 app.get('', async (req, res) => {
-    const data = fetchdata((error, body) => {
+    fetchdata((error, body) => {
         if(error)
             return res.send({
                 error

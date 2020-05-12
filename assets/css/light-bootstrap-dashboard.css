@@ -277,6 +277,10 @@ h5 {
     font-size: 15px;
 }
 
+.sbar {
+    margin-top: 10px;
+}
+
 .amount {
     font-size: 30px;
     text-align: center;
