@@ -242,6 +242,41 @@ h5 {
     text-align: center;
 }
 
+.tablecol {
+    color: blueviolet;
+    font-weight: bold;
+}
+/* .row .row1 {
+    padding-top: 25px;
+    padding-left: 25px;
+    font-weight: bold;
+    color: blueviolet;
+    /* border-top: 2px solid blue; */
+/* }
+
+.row .prod {
+    margin-left:8px;
+}  */
+
+.col-md-6 .top {
+    padding-top: 10px;
+    padding-right: 30px;
+    text-align: right;
+}
+
+/* .col-md-2 .prod {
+
+} */
+
+.chart-container {
+    margin-left: 50x;
+}
+.subhead {
+    font-weight: bold;
+    color: gray;
+    font-size: 15px;
+}
+
 .amount {
     font-size: 30px;
     text-align: center;
