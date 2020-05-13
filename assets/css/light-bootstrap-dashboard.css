@@ -1250,7 +1250,7 @@ fieldset[disabled] .btn-neutral.active {
 } */
 
 .topa {
-    font-size: calc(60px - 2vw);
+    font-size: calc(50px - 2vw);
     text-align: right;
     margin-right: 10px;
     color: rgba(74, 74, 74, 0.8);
