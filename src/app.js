@@ -2,6 +2,7 @@ const express = require('express')
 const request = require('request')
 const path = require('path')
 const hbs = require('hbs')
+const faker = require('faker')
 const port = process.env.PORT || 3000
 
 const app = express()
@@ -27,7 +28,10 @@ app.get('', async (req, res) => {
         // res.send(body.)
         res.render('index',{
             ...body.dataForTopFourBoxes,
-            ...body.dataForBottomRightTable
+            ...body.dataForBottomRightTable,
+            avatar: {
+                img: faker.image.avatar()
+            }
         } )
     })
 })
